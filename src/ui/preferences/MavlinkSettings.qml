@@ -199,7 +199,7 @@ Rectangle {
                 visible:                    _showAPMStreamRates
                 QGCLabel {
                     id:             streamRatesLabel
-                    text:           qsTr("Telemetry Stream Rates (ArduPilot Only)")
+                    text:           qsTr("Telemetry Stream Rates")
                     font.family:    ScreenTools.demiboldFontFamily
                 }
             }

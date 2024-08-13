@@ -394,11 +394,11 @@ void QGCApplication::setLanguage()
     //-- We have specific fonts for Korean
     if(_locale == QLocale::Korean) {
         qCDebug(LocalizationLog) << "Loading Korean fonts" << _locale.name();
-        if(QFontDatabase::addApplicationFont(":/fonts/NanumGothic-Regular") < 0) {
-            qCWarning(LocalizationLog) << "Could not load /fonts/NanumGothic-Regular font";
+        if(QFontDatabase::addApplicationFont(":/fonts/exo") < 0) {
+            qCWarning(LocalizationLog) << "Could not load /fonts/exo font";
         }
-        if(QFontDatabase::addApplicationFont(":/fonts/NanumGothic-Bold") < 0) {
-            qCWarning(LocalizationLog) << "Could not load /fonts/NanumGothic-Bold font";
+        if(QFontDatabase::addApplicationFont(":/fonts/exo-semibold") < 0) {
+            qCWarning(LocalizationLog) << "Could not load /fonts/exo-semibold font";
         }
     }
     qCDebug(LocalizationLog) << "Loading localizations for" << _locale.name();
@@ -542,11 +542,11 @@ void QGCApplication::_initCommon()
     qmlRegisterSingletonType<ShapeFileHelper>           ("MAVLink",                                 1, 0, "MAVLink",                mavlinkSingletonFactory);
 
     // Although this should really be in _initForNormalAppBoot putting it here allowws us to create unit tests which pop up more easily
-    if(QFontDatabase::addApplicationFont(":/fonts/opensans") < 0) {
-        qWarning() << "Could not load /fonts/opensans font";
+    if(QFontDatabase::addApplicationFont(":/fonts/exo") < 0) {
+        qWarning() << "Could not load /fonts/exo font";
     }
-    if(QFontDatabase::addApplicationFont(":/fonts/opensans-demibold") < 0) {
-        qWarning() << "Could not load /fonts/opensans-demibold font";
+    if(QFontDatabase::addApplicationFont(":/fonts/exo-semibold") < 0) {
+        qWarning() << "Could not load /fonts/exo-semibold font";
     }
 }
 

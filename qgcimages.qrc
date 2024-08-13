@@ -48,7 +48,6 @@
         <file alias="AirframeStandardPlane.png">src/AutoPilotPlugins/Common/Images/Plane.svg</file>
         <file alias="AlertAircraft.svg">src/FlightMap/Images/AlertAircraft.svg</file>
         <file alias="Analyze.svg">src/ui/toolbar/Images/Analyze.svg</file>
-        <file alias="APM/BrandImage">src/FirmwarePlugin/APM/APMBrandImage.png</file>
         <file alias="APM/BrandImageSub">src/FirmwarePlugin/APM/APMBrandImageSub.png</file>
         <file alias="APMode.svg">src/AutoPilotPlugins/Common/Images/APMode.svg</file>
         <file alias="Armed.svg">src/ui/toolbar/Images/Armed.svg</file>
@@ -146,7 +145,6 @@
         <file alias="PowerComponentBattery_05cell.svg">src/AutoPilotPlugins/PX4/Images/PowerComponentBattery_05cell.svg</file>
         <file alias="PowerComponentBattery_06cell.svg">src/AutoPilotPlugins/PX4/Images/PowerComponentBattery_06cell.svg</file>
         <file alias="PowerComponentIcon.png">src/AutoPilotPlugins/Common/Images/PowerComponentIcon.png</file>
-        <file alias="PX4/BrandImage">src/FirmwarePlugin/PX4/PX4BrandImage.png</file>
         <file alias="Quad.svg">src/ui/toolbar/Images/Quad.svg</file>
         <file alias="RadioComponentIcon.png">src/AutoPilotPlugins/Common/Images/RadioComponentIcon.png</file>
         <file alias="RidEmergencyBackgroundHighlight.svg">src/ui/toolbar/Images/RidEmergencyBackgroundHighlight.svg</file>
@@ -207,5 +205,7 @@
         <file alias="Yield.svg">src/ui/toolbar/Images/Yield.svg</file>
         <file alias="ZoomMinus.svg">src/FlightMap/Images/ZoomMinus.svg</file>
         <file alias="ZoomPlus.svg">src/FlightMap/Images/ZoomPlus.svg</file>
+        <file alias="APM/BrandImage">src/FirmwarePlugin/APM/APMBrandImage.jpg</file>
+        <file alias="PX4/BrandImage">src/FirmwarePlugin/PX4/PX4BrandImage.jpg</file>
     </qresource>
 </RCC>

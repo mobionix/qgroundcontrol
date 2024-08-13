@@ -336,10 +336,10 @@
 },
 {
     "name":      "forwardMavlinkAPMSupportHostName",
-    "shortDesc": "Ardupilot Support Host name",
-    "longDesc":  "Ardupilot Support server to forward mavlink to. i.e: support.ardupilot.org:xxxx",
+    "shortDesc": "Support Host name",
+    "longDesc":  "Support server to forward mavlink to. i.e: https://latricsaerospace.com/contact-us",
     "type":      "string",
-    "default":   "support.ardupilot.org:xxxx"
+    "default":   "https://latricsaerospace.com/contact-us"
 }
 ]
 }

@@ -55,6 +55,11 @@ Item {
 
                         QGCButton {
                             text: modelData
+                            visible: modelData === "Auto"
+                                     || modelData === "Loiter"
+                                     || modelData === "RTL"
+                                     || modelData === "Land"
+                                     || modelData === "Altitude Hold"
                             Layout.fillWidth: true
                             onClicked: {
                                 activeVehicle.flightMode = text

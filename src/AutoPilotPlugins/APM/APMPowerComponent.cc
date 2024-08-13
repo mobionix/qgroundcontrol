@@ -26,7 +26,7 @@ QString APMPowerComponent::name(void) const
 
 QString APMPowerComponent::description(void) const
 {
-    return tr("The Power Component is used to setup battery parameters.");
+    return tr("");
 }
 
 QString APMPowerComponent::iconResource(void) const
